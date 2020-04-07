@@ -1,7 +1,7 @@
 import UIKit
 import reflectium_ipsum
 
-public final class FinalReflexionGenerator {\
+public final class FinalReflexionGenerator {
     
     public static func generateUppercaseFeedback() -> String {
         return ReflectionGenerator.generatiumReflectium().uppercased()
@@ -9,6 +9,6 @@ public final class FinalReflexionGenerator {\
     
     public static func generatePaulasFeedback() -> String {
         return ReflectionGenerator.generatiumReflectium().append(contentsOf: "Uhhh, a Paula passou aqui.")
-    }\
+    }
     
 }
